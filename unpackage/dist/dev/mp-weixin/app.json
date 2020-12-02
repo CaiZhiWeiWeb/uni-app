@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/contact/contact",
+    "pages/detail/detail",
+    "pages/list/list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "App",
+    "navigationBarBackgroundColor": "#66CDAA",
+    "backgroundColor": "#66CDAA",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#2C405A",
+    "selectedColor": "#66CDAA",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "信息页",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

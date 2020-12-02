@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"enablePullDownRefresh": true
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "信息页",
+				"navigationBarBackgroundColor": "#007AFF",
+				"h5":{
+					"pullToRefresh":{
+						"color":"#2C405A"
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/contact/contact",
+			"style":{
+				"navigationBarTitleText": "联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "App",
+		"navigationBarBackgroundColor": "#66CDAA",
+		"backgroundColor": "#66CDAA",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "light"
+	},
+	"tabBar":{
+		"color":"#2C405A",
+		"selectedColor":"#66CDAA",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"white",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png"
+			},
+			{
+				"text":"信息页",
+				"pagePath":"pages/message/message",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png"
+			},
+			{
+				"text":"联系我们",
+				"pagePath":"pages/contact/contact",
+				"iconPath":"static/logo.png",
+				"selectedIconPath":"static/logo.png"
+			}
+		]
+	},
+	"condition":{
+		"current":0,
+		"list":[
+			{
+				"name":"详情页",
+				"path":"pages/detail/detail",
+				"query":"id=80"
+			}
+		]
+	}
+}

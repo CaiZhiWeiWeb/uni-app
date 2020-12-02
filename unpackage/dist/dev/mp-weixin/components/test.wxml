@@ -1,0 +1,1 @@
+<view>{{'这是test组件'+title+''}}<button type="default" data-event-opts="{{[['tap',[['sendPar',['$event']]]]]}}" bindtap="__e">触发时间</button></view>

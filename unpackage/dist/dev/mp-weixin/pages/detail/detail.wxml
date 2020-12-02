@@ -1,0 +1,1 @@
+<view><text class="name">{{name}}</text><text selectable="{{true}}">唱歌跳舞篮球</text></view>
